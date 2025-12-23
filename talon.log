@@ -1,0 +1,810 @@
+2025-12-23 23:24:25 [DEBUG] root util_logger.setup_logger:78 [pid:5108 tid:1356 threadName:MainThread]: Logger initialized (level=DEBUG, file=C:\Users\Administrator\Desktop\talon.log, maxBytes=10485760, backups=5)
+2025-12-23 23:24:26 [DEBUG] root util_admin_check.ensure_admin:51 [pid:5108 tid:1356 threadName:MainThread]: Running with Administrator privileges.
+2025-12-23 23:24:26 [INFO] root util_windows_check.check_windows_11_home_or_pro:62 [pid:5108 tid:1356 threadName:MainThread]: Detected OS: Windows 10 Pro (build 22631); edition: Professional
+2025-12-23 23:24:26 [INFO] root util_internet_check.ensure_internet:14 [pid:5108 tid:1356 threadName:MainThread]: Checking internet connectivity (attempt 1/3)...
+2025-12-23 23:24:26 [DEBUG] root util_internet_check.ensure_internet:18 [pid:5108 tid:1356 threadName:MainThread]: Internet check HTTP status: 200
+2025-12-23 23:24:26 [INFO] root util_internet_check.ensure_internet:20 [pid:5108 tid:1356 threadName:MainThread]: Internet connectivity confirmed.
+2025-12-23 23:24:26 [DEBUG] root talon.run_screen:94 [pid:5108 tid:1356 threadName:MainThread]: Launching screen: screen_browser_select
+2025-12-23 23:24:26 [INFO] root util_load_font.load_font:40 [pid:5108 tid:1356 threadName:MainThread]: Loaded and set application font: 'Chakra Petch' from 'chakra_petch_regular.ttf' at size 8
+2025-12-23 23:24:26 [INFO] root util_load_font.load_font:40 [pid:5108 tid:1356 threadName:MainThread]: Loaded and set application font: 'Chakra Petch' from 'chakra_petch_regular.ttf' at size 8
+2025-12-23 23:24:26 [INFO] root util_load_font.load_font:40 [pid:5108 tid:1356 threadName:MainThread]: Loaded and set application font: 'Chakra Petch' from 'chakra_petch_regular.ttf' at size 8
+2025-12-23 23:24:26 [INFO] root util_load_font.load_font:40 [pid:5108 tid:1356 threadName:MainThread]: Loaded and set application font: 'Chakra Petch' from 'chakra_petch_regular.ttf' at size 8
+2025-12-23 23:24:26 [INFO] root util_load_font.load_font:40 [pid:5108 tid:1356 threadName:MainThread]: Loaded and set application font: 'Chakra Petch' from 'chakra_petch_regular.ttf' at size 8
+2025-12-23 23:24:26 [INFO] root util_load_font.load_font:40 [pid:5108 tid:1356 threadName:MainThread]: Loaded and set application font: 'Chakra Petch' from 'chakra_petch_regular.ttf' at size 8
+2025-12-23 23:24:26 [INFO] root util_load_font.load_font:40 [pid:5108 tid:1356 threadName:MainThread]: Loaded and set application font: 'Chakra Petch' from 'chakra_petch_regular.ttf' at size 8
+2025-12-23 23:24:26 [INFO] root util_load_font.load_font:40 [pid:5108 tid:1356 threadName:MainThread]: Loaded and set application font: 'Chakra Petch' from 'chakra_petch_regular.ttf' at size 8
+2025-12-23 23:24:26 [INFO] root util_load_font.load_font:40 [pid:5108 tid:1356 threadName:MainThread]: Loaded and set application font: 'Chakra Petch' from 'chakra_petch_regular.ttf' at size 8
+2025-12-23 23:24:36 [DEBUG] root talon.run_screen:94 [pid:5108 tid:1356 threadName:MainThread]: Launching screen: screen_donation_request
+2025-12-23 23:24:37 [INFO] root util_load_font.load_font:40 [pid:5108 tid:1356 threadName:MainThread]: Loaded and set application font: 'Chakra Petch' from 'chakra_petch_regular.ttf' at size 8
+2025-12-23 23:24:37 [INFO] root util_load_font.load_font:40 [pid:5108 tid:1356 threadName:MainThread]: Loaded and set application font: 'Chakra Petch' from 'chakra_petch_regular.ttf' at size 8
+2025-12-23 23:24:37 [INFO] root util_load_font.load_font:40 [pid:5108 tid:1356 threadName:MainThread]: Loaded and set application font: 'Chakra Petch' from 'chakra_petch_regular.ttf' at size 8
+2025-12-23 23:24:37 [INFO] root util_load_font.load_font:40 [pid:5108 tid:1356 threadName:MainThread]: Loaded and set application font: 'Chakra Petch' from 'chakra_petch_regular.ttf' at size 8
+2025-12-23 23:24:37 [INFO] root util_load_font.load_font:40 [pid:5108 tid:1356 threadName:MainThread]: Loaded and set application font: 'Chakra Petch' from 'chakra_petch_regular.ttf' at size 8
+2025-12-23 23:24:38 [INFO] root util_load_font.load_font:40 [pid:5108 tid:1356 threadName:MainThread]: Loaded and set application font: 'Chakra Petch' from 'chakra_petch_regular.ttf' at size 8
+2025-12-23 23:24:38 [INFO] root util_load_font.load_font:40 [pid:5108 tid:1356 threadName:MainThread]: Loaded and set application font: 'Chakra Petch' from 'chakra_petch_regular.ttf' at size 8
+2025-12-23 23:24:38 [INFO] root util_load_font.load_font:40 [pid:5108 tid:1356 threadName:MainThread]: Loaded and set application font: 'Chakra Petch' from 'chakra_petch_regular.ttf' at size 8
+2025-12-23 23:24:38 [INFO] root util_load_font.load_font:40 [pid:5108 tid:1356 threadName:MainThread]: Loaded and set application font: 'Chakra Petch' from 'chakra_petch_regular.ttf' at size 8
+2025-12-23 23:24:38 [INFO] root debloat_execute_raven_scripts.main:14 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Executing PowerShell script: edge_vanisher.ps1
+2025-12-23 23:24:38 [INFO] root util_powershell_handler.run_powershell_script:47 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Launching PowerShell: powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\ADMINI~1\AppData\Local\RavenDevelopmentTeam\Talon\2.1.0.0-1.0.0.19\debloat_raven_scripts\edge_vanisher.ps1
+2025-12-23 23:24:42 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Edge Vanisher started
+2025-12-23 23:24:42 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Starting Microsoft Edge uninstallation process...
+2025-12-23 23:24:42 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Terminating Edge processes...
+2025-12-23 23:24:42 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: No running Edge processes found.
+2025-12-23 23:24:42 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Uninstalling Edge with setup...
+2025-12-23 23:24:42 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Removing Start Menu shortcuts...
+2025-12-23 23:24:42 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Cleaning Edge folders...
+2025-12-23 23:24:42 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Cleaning: C:\Program Files (x86)\Microsoft\EdgeUpdate
+2025-12-23 23:24:42 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Cleaning: C:\Program Files (x86)\Microsoft\EdgeCore
+2025-12-23 23:24:42 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Cleaning: C:\ProgramData\Microsoft\EdgeUpdate
+2025-12-23 23:24:42 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Cleaning Edge registry entries...
+2025-12-23 23:24:42 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Deleting registry key: HKLM:\SOFTWARE\Microsoft\EdgeUpdate
+2025-12-23 23:24:42 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Successfully deleted registry key: HKLM:\SOFTWARE\Microsoft\EdgeUpdate
+2025-12-23 23:24:42 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Deleting registry key: HKLM:\SOFTWARE\Microsoft\Edge
+2025-12-23 23:24:42 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Successfully deleted registry key: HKLM:\SOFTWARE\Microsoft\Edge
+2025-12-23 23:24:42 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Deleting registry key: HKLM:\SOFTWARE\WOW6432Node\Microsoft\Edge
+2025-12-23 23:24:42 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Successfully deleted registry key: HKLM:\SOFTWARE\WOW6432Node\Microsoft\Edge
+2025-12-23 23:24:42 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Deleting registry key: HKLM:\SOFTWARE\WOW6432Node\Microsoft\EdgeUpdate
+2025-12-23 23:24:42 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Successfully deleted registry key: HKLM:\SOFTWARE\WOW6432Node\Microsoft\EdgeUpdate
+2025-12-23 23:24:42 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Deleting registry key: HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge Update
+2025-12-23 23:24:42 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Successfully deleted registry key: HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge Update
+2025-12-23 23:24:43 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: [SC] DeleteService SUCCESS
+2025-12-23 23:24:43 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: [SC] DeleteService SUCCESS
+2025-12-23 23:24:43 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: [SC] OpenService FAILED 1060:
+2025-12-23 23:24:43 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: 
+2025-12-23 23:24:43 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: The specified service does not exist as an installed service.
+2025-12-23 23:24:43 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: 
+2025-12-23 23:24:43 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: 
+2025-12-23 23:24:43 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Microsoft Edge uninstallation process completed!
+2025-12-23 23:24:43 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Creating protective Edge folders...
+2025-12-23 23:24:43 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Processing protective folder: C:\Program Files (x86)\Microsoft\Edge
+2025-12-23 23:24:43 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Success: C:\Program Files (x86)\Microsoft\Edge\Application
+2025-12-23 23:24:43 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Processing protective folder: C:\Program Files (x86)\Microsoft\EdgeCore
+2025-12-23 23:24:43 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Success: C:\Program Files (x86)\Microsoft\EdgeCore
+2025-12-23 23:24:43 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:11952 threadName:Thread-2 (_stream)]: PSCRIPT [edge_vanisher.ps1] STDOUT: Protective folders created and security settings configured for Edge and EdgeCore.
+2025-12-23 23:24:43 [DEBUG] root util_powershell_handler.run_powershell_script:119 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: PowerShell completed successfully (code 0)
+2025-12-23 23:24:43 [INFO] root debloat_execute_raven_scripts.main:17 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Successfully executed edge_vanisher.ps1
+2025-12-23 23:24:43 [INFO] root debloat_execute_raven_scripts.main:14 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Executing PowerShell script: uninstall_oo.ps1
+2025-12-23 23:24:43 [INFO] root util_powershell_handler.run_powershell_script:47 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Launching PowerShell: powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\ADMINI~1\AppData\Local\RavenDevelopmentTeam\Talon\2.1.0.0-1.0.0.19\debloat_raven_scripts\uninstall_oo.ps1
+2025-12-23 23:24:50 [DEBUG] root util_powershell_handler.run_powershell_script:119 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: PowerShell completed successfully (code 0)
+2025-12-23 23:24:50 [INFO] root debloat_execute_raven_scripts.main:17 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Successfully executed uninstall_oo.ps1
+2025-12-23 23:24:50 [INFO] root debloat_execute_raven_scripts.main:29 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: All debloat scripts executed successfully.
+2025-12-23 23:24:50 [INFO] root debloat_browser_installation.main:132 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Browser selected: googlechrome
+2025-12-23 23:24:50 [INFO] root debloat_browser_installation.ensure_chocolatey:36 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Chocolatey not found. Installing now...
+2025-12-23 23:24:50 [INFO] root debloat_browser_installation.ensure_chocolatey:44 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Running install command: Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+2025-12-23 23:24:50 [INFO] root util_powershell_handler.run_powershell_command:142 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Launching PowerShell command: Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+2025-12-23 23:24:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: Forcing web requests to allow TLS v1.2 (Required for requests to Chocolatey.org)
+2025-12-23 23:24:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: Getting latest version of the Chocolatey package for download.
+2025-12-23 23:24:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: Not using proxy.
+2025-12-23 23:24:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: Getting Chocolatey from https://community.chocolatey.org/api/v2/package/chocolatey/2.6.0.
+2025-12-23 23:24:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: Downloading https://community.chocolatey.org/api/v2/package/chocolatey/2.6.0 to C:\Users\ADMINI~1\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip
+2025-12-23 23:24:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: Not using proxy.
+2025-12-23 23:24:55 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: Extracting C:\Users\ADMINI~1\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip to C:\Users\ADMINI~1\AppData\Local\Temp\chocolatey\chocoInstall
+2025-12-23 23:24:56 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: Installing Chocolatey on the local machine
+2025-12-23 23:24:58 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: Creating ChocolateyInstall as an environment variable (targeting 'Machine')
+2025-12-23 23:24:58 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT:   Setting ChocolateyInstall to 'C:\ProgramData\chocolatey'
+2025-12-23 23:24:58 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: WARNING: It's very likely you will need to close and reopen your shell
+2025-12-23 23:24:58 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT:   before you can use choco.
+2025-12-23 23:24:58 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: Restricting write permissions to Administrators
+2025-12-23 23:24:58 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: We are setting up the Chocolatey package repository.
+2025-12-23 23:24:58 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: The packages themselves go to 'C:\ProgramData\chocolatey\lib'
+2025-12-23 23:24:58 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT:   (i.e. C:\ProgramData\chocolatey\lib\yourPackageName).
+2025-12-23 23:24:58 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: A shim file for the command line goes to 'C:\ProgramData\chocolatey\bin'
+2025-12-23 23:24:58 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT:   and points to an executable in 'C:\ProgramData\chocolatey\lib\yourPackageName'.
+2025-12-23 23:24:58 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:24:58 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: Creating Chocolatey CLI folders if they do not already exist.
+2025-12-23 23:24:58 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:24:58 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: chocolatey.nupkg file not installed in lib.
+2025-12-23 23:24:58 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT:  Attempting to locate it from bootstrapper.
+2025-12-23 23:24:58 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: PATH environment variable does not have C:\ProgramData\chocolatey\bin in it. Adding...
+2025-12-23 23:24:59 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: WARNING: Not setting tab completion: Profile file does not exist at
+2025-12-23 23:24:59 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: 'C:\Users\Administrator\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1'.
+2025-12-23 23:25:02 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: Chocolatey CLI (choco.exe) is now ready.
+2025-12-23 23:25:02 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: You can call choco from anywhere, command line or PowerShell by typing choco.
+2025-12-23 23:25:02 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: Run choco /? for a list of functions.
+2025-12-23 23:25:02 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: You may need to shut down and restart PowerShell and/or consoles
+2025-12-23 23:25:02 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT:  first prior to using choco.
+2025-12-23 23:25:02 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: Ensuring Chocolatey commands are on the path
+2025-12-23 23:25:02 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:5456 threadName:Thread-6 (_stream)]: PCOMMAND STDOUT: Ensuring chocolatey.nupkg is in the lib folder
+2025-12-23 23:25:02 [DEBUG] root util_powershell_handler.run_powershell_command:215 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: PowerShell completed successfully (code 0)
+2025-12-23 23:25:02 [INFO] root debloat_browser_installation.ensure_chocolatey:47 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Chocolatey install script executed.
+2025-12-23 23:25:05 [INFO] root debloat_browser_installation.ensure_chocolatey:55 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Chocolatey installed and verified.
+2025-12-23 23:25:05 [INFO] root debloat_browser_installation._install_choco_package:84 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Installing via Chocolatey: Microsoft Visual C++ 2015–2022 Redistributable (vcredist140)
+2025-12-23 23:25:22 [INFO] root debloat_browser_installation._install_choco_package:94 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Successfully installed Microsoft Visual C++ 2015–2022 Redistributable.
+2025-12-23 23:25:22 [INFO] root debloat_browser_installation._install_choco_package:84 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Installing via Chocolatey: browser 'googlechrome' (googlechrome)
+2025-12-23 23:25:29 [INFO] root debloat_browser_installation._install_choco_package:94 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Successfully installed browser 'googlechrome'.
+2025-12-23 23:25:29 [INFO] root debloat_execute_external_scripts.main:79 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Using WinUtil config: C:\Users\ADMINI~1\AppData\Local\RavenDevelopmentTeam\Talon\2.1.0.0-1.0.0.19\configs\default.json
+2025-12-23 23:25:29 [INFO] root debloat_execute_external_scripts.main:92 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Executing ChrisTitusTech WinUtil
+2025-12-23 23:25:29 [INFO] root util_powershell_handler.run_powershell_command:142 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Launching PowerShell command: & 'C:\Users\ADMINI~1\AppData\Local\RavenDevelopmentTeam\Talon\2.1.0.0-1.0.0.19\external_scripts\winutil.ps1' -Config 'C:\Users\ADMINI~1\AppData\Local\RavenDevelopmentTeam\Talon\2.1.0.0-1.0.0.19\configs\default.json' -Run -NoUI
+2025-12-23 23:25:32 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Running config file tasks...
+2025-12-23 23:25:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT:     CCCCCCCCCCCCCTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+2025-12-23 23:25:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT:  CCC::::::::::::CT:::::::::::::::::::::TT:::::::::::::::::::::T
+2025-12-23 23:25:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: CC:::::::::::::::CT:::::::::::::::::::::TT:::::::::::::::::::::T
+2025-12-23 23:25:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: C:::::CCCCCCCC::::CT:::::TT:::::::TT:::::TT:::::TT:::::::TT:::::T
+2025-12-23 23:25:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: C:::::C       CCCCCCTTTTTT  T:::::T  TTTTTTTTTTTT  T:::::T  TTTTTT
+2025-12-23 23:25:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: C:::::C                     T:::::T                T:::::T
+2025-12-23 23:25:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: C:::::C                     T:::::T                T:::::T
+2025-12-23 23:25:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: C:::::C                     T:::::T                T:::::T
+2025-12-23 23:25:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: C:::::C                     T:::::T                T:::::T
+2025-12-23 23:25:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: C:::::C                     T:::::T                T:::::T
+2025-12-23 23:25:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: C:::::C                     T:::::T                T:::::T
+2025-12-23 23:25:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: C:::::C       CCCCCC        T:::::T                T:::::T
+2025-12-23 23:25:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: C:::::CCCCCCCC::::C      TT:::::::TT            TT:::::::TT
+2025-12-23 23:25:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: CC:::::::::::::::C       T:::::::::T            T:::::::::T
+2025-12-23 23:25:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: CCC::::::::::::C         T:::::::::T            T:::::::::T
+2025-12-23 23:25:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT:   CCCCCCCCCCCCC          TTTTTTTTTTT            TTTTTTTTTTT
+2025-12-23 23:25:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:25:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: ====Chris Titus Tech=====
+2025-12-23 23:25:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: =====Windows Toolbox=====
+2025-12-23 23:25:43 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\Software\Microsoft\Windows\CurrentVersion\CrossDeviceResume\Configuration\IsResumeAllowed to 0
+2025-12-23 23:25:48 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Applying tweaks...
+2025-12-23 23:25:53 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Installing features...
+2025-12-23 23:25:58 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Installing applications...
+2025-12-23 23:26:03 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Done.
+2025-12-23 23:26:04 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\Software\Microsoft\PolicyManager\default\WiFi\AllowWiFiHotSpotReporting\Value to 0
+2025-12-23 23:26:04 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\Software\Microsoft\PolicyManager\default\WiFi\AllowAutoConnectToWiFiSenseHotspots\Value to 0
+2025-12-23 23:26:05 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Running Script for WPFTweaksRightClickMenu
+2025-12-23 23:26:05 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Restarting explorer.exe ...
+2025-12-23 23:26:06 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\DisableWpbtExecution to 1
+2025-12-23 23:26:07 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Running Script for WPFTweaksDisableLMS1
+2025-12-23 23:26:07 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Kill LMS
+2025-12-23 23:26:07 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Stopping and disabling service: LMS
+2025-12-23 23:26:07 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing service: LMS
+2025-12-23 23:26:07 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing LMS driver packages
+2025-12-23 23:26:07 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: No LMS driver packages found in the driver store.
+2025-12-23 23:26:07 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Searching and deleting LMS executable files
+2025-12-23 23:26:08 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: No LMS.exe files found in Program Files directories.
+2025-12-23 23:26:08 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Intel LMS vPro service has been disabled, removed, and blocked.
+2025-12-23 23:26:09 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Running Script for WPFTweaksDeBloat
+2025-12-23 23:26:09 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Stopping Teams process...
+2025-12-23 23:26:09 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Uninstalling Teams from AppData\Microsoft\Teams
+2025-12-23 23:26:09 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Teams AppxPackage...
+2025-12-23 23:26:09 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Deleting Teams directory
+2025-12-23 23:26:09 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Deleting Teams uninstall registry key
+2025-12-23 23:26:09 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.Microsoft3DViewer
+2025-12-23 23:26:10 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.AppConnector
+2025-12-23 23:26:10 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.BingFinance
+2025-12-23 23:26:10 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.BingNews
+2025-12-23 23:26:10 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.BingSports
+2025-12-23 23:26:10 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.BingTranslator
+2025-12-23 23:26:10 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.BingWeather
+2025-12-23 23:26:10 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.BingFoodAndDrink
+2025-12-23 23:26:10 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.BingHealthAndFitness
+2025-12-23 23:26:10 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.BingTravel
+2025-12-23 23:26:10 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.MinecraftUWP
+2025-12-23 23:26:10 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.GamingServices
+2025-12-23 23:26:10 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.GetHelp
+2025-12-23 23:26:11 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.Getstarted
+2025-12-23 23:26:11 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.Messaging
+2025-12-23 23:26:11 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.Microsoft3DViewer
+2025-12-23 23:26:11 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.MicrosoftSolitaireCollection
+2025-12-23 23:26:11 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.NetworkSpeedTest
+2025-12-23 23:26:11 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.News
+2025-12-23 23:26:11 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.Office.Lens
+2025-12-23 23:26:11 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.Office.Sway
+2025-12-23 23:26:11 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.Office.OneNote
+2025-12-23 23:26:11 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.OneConnect
+2025-12-23 23:26:11 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.People
+2025-12-23 23:26:12 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.Print3D
+2025-12-23 23:26:12 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.SkypeApp
+2025-12-23 23:26:12 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.Wallet
+2025-12-23 23:26:12 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.Whiteboard
+2025-12-23 23:26:12 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.WindowsAlarms
+2025-12-23 23:26:12 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing microsoft.windowscommunicationsapps
+2025-12-23 23:26:12 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.WindowsFeedbackHub
+2025-12-23 23:26:12 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.WindowsMaps
+2025-12-23 23:26:12 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.WindowsSoundRecorder
+2025-12-23 23:26:12 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.ConnectivityStore
+2025-12-23 23:26:12 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.ScreenSketch
+2025-12-23 23:26:13 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.MixedReality.Portal
+2025-12-23 23:26:14 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.ZuneMusic
+2025-12-23 23:26:14 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.ZuneVideo
+2025-12-23 23:26:14 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.Getstarted
+2025-12-23 23:26:14 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing Microsoft.MicrosoftOfficeHub
+2025-12-23 23:26:15 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *EclipseManager*
+2025-12-23 23:26:15 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *ActiproSoftwareLLC*
+2025-12-23 23:26:15 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *AdobeSystemsIncorporated.AdobePhotoshopExpress*
+2025-12-23 23:26:15 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *Duolingo-LearnLanguagesforFree*
+2025-12-23 23:26:15 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *PandoraMediaInc*
+2025-12-23 23:26:15 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *CandyCrush*
+2025-12-23 23:26:15 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *BubbleWitch3Saga*
+2025-12-23 23:26:15 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *Wunderlist*
+2025-12-23 23:26:15 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *Flipboard*
+2025-12-23 23:26:15 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *Twitter*
+2025-12-23 23:26:15 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *Facebook*
+2025-12-23 23:26:16 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *Royal Revolt*
+2025-12-23 23:26:16 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *Sway*
+2025-12-23 23:26:16 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *Speed Test*
+2025-12-23 23:26:16 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *Dolby*
+2025-12-23 23:26:16 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *Viber*
+2025-12-23 23:26:16 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *ACGMediaPlayer*
+2025-12-23 23:26:16 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *Netflix*
+2025-12-23 23:26:16 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *OneCalendar*
+2025-12-23 23:26:16 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *LinkedInforWindows*
+2025-12-23 23:26:16 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *HiddenCityMysteryofShadows*
+2025-12-23 23:26:16 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *Hulu*
+2025-12-23 23:26:17 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *HiddenCity*
+2025-12-23 23:26:17 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *AdobePhotoshopExpress*
+2025-12-23 23:26:17 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *HotspotShieldFreeVPN*
+2025-12-23 23:26:17 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing *Microsoft.Advertising.Xaml*
+2025-12-23 23:26:18 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Running Script for WPFTweaksDisableExplorerAutoDiscovery
+2025-12-23 23:26:18 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removed HKCU:\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags
+2025-12-23 23:26:18 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removed HKCU:\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU
+2025-12-23 23:26:18 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Created HKCU:\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\AllFolders\Shell
+2025-12-23 23:26:18 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set FolderType to NotSpecified
+2025-12-23 23:26:18 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Please sign out and back in or restart your computer to apply the changes!
+2025-12-23 23:26:19 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Running Script for WPFTweaksRemoveHome
+2025-12-23 23:26:20 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Policies\Microsoft\Windows\CloudContent\DisableWindowsConsumerFeatures to 1
+2025-12-23 23:26:21 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\System\GameConfigStore\GameDVR_FSEBehavior to 2
+2025-12-23 23:26:21 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\System\GameConfigStore\GameDVR_Enabled to 0
+2025-12-23 23:26:21 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\System\GameConfigStore\GameDVR_HonorUserFSEBehaviorMode to 1
+2025-12-23 23:26:21 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\System\GameConfigStore\GameDVR_EFSEFeatureFlags to 0
+2025-12-23 23:26:21 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Policies\Microsoft\Windows\GameDVR\AllowGameDVR to 0
+2025-12-23 23:26:22 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Disabling Scheduled Task Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Disabling Scheduled Task Microsoft\Windows\Application Experience\ProgramDataUpdater
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: WARNING: Scheduled Task Microsoft\Windows\Application Experience\ProgramDataUpdater was not Found
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Disabling Scheduled Task Microsoft\Windows\Autochk\Proxy
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: WARNING: Scheduled Task Microsoft\Windows\Autochk\Proxy was not Found
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Disabling Scheduled Task Microsoft\Windows\Customer Experience Improvement Program\Consolidator
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: WARNING: Scheduled Task Microsoft\Windows\Customer Experience Improvement Program\Consolidator was not Found
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Disabling Scheduled Task Microsoft\Windows\Customer Experience Improvement Program\UsbCeip
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: WARNING: Scheduled Task Microsoft\Windows\Customer Experience Improvement Program\UsbCeip was not Found
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Disabling Scheduled Task Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: WARNING: Scheduled Task Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector was not Found
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Disabling Scheduled Task Microsoft\Windows\Feedback\Siuf\DmClient
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Disabling Scheduled Task Microsoft\Windows\Feedback\Siuf\DmClientOnScenarioDownload
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Disabling Scheduled Task Microsoft\Windows\Windows Error Reporting\QueueReporting
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Disabling Scheduled Task Microsoft\Windows\Application Experience\MareBackup
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Disabling Scheduled Task Microsoft\Windows\Application Experience\StartupAppTask
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Disabling Scheduled Task Microsoft\Windows\Application Experience\PcaPatchDbTask
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: WARNING: Scheduled Task Microsoft\Windows\Application Experience\PcaPatchDbTask was not Found
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Disabling Scheduled Task Microsoft\Windows\Maps\MapsUpdateTask
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: WARNING: Scheduled Task Microsoft\Windows\Maps\MapsUpdateTask was not Found
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\DataCollection\AllowTelemetry to 0
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Policies\Microsoft\Windows\DataCollection\AllowTelemetry to 0
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\ContentDeliveryAllowed to 0
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\OemPreInstalledAppsEnabled to 0
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\PreInstalledAppsEnabled to 0
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\PreInstalledAppsEverEnabled to 0
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SilentInstalledAppsEnabled to 0
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SubscribedContent-338387Enabled to 0
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SubscribedContent-338388Enabled to 0
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SubscribedContent-338389Enabled to 0
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SubscribedContent-353698Enabled to 0
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SystemPaneSuggestionsEnabled to 0
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\SOFTWARE\Microsoft\Siuf\Rules\NumberOfSIUFInPeriod to 0
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Remove HKCU:\SOFTWARE\Microsoft\Siuf\Rules\PeriodInNanoSeconds
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Policies\Microsoft\Windows\DataCollection\DoNotShowFeedbackNotifications to 1
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\SOFTWARE\Policies\Microsoft\Windows\CloudContent\DisableTailoredExperiencesWithDiagnosticData to 1
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Policies\Microsoft\Windows\AdvertisingInfo\DisabledByGroupPolicy to 1
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Microsoft\Windows\Windows Error Reporting\Disabled to 1
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Config\DODownloadMode to 0
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization\DODownloadMode to 0
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SYSTEM\CurrentControlSet\Control\Remote Assistance\fAllowToGetHelp to 0
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\OperationStatusManager\EnthusiastMode to 1
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\ShowTaskViewButton to 0
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People\PeopleBand to 0
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\LaunchTo to 1
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem\LongPathsEnabled to 1
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\SystemResponsiveness to 0
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\NetworkThrottlingIndex to 4294967295
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\Control Panel\Desktop\AutoEndTasks to 1
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\ClearPageFileAtShutdown to 0
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SYSTEM\ControlSet001\Services\Ndu\Start to 2
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\IRPStackSize to 30
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\SOFTWARE\Policies\Microsoft\Windows\Windows Feeds\EnableFeeds to 0
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\Software\Microsoft\Windows\CurrentVersion\Feeds\ShellFeedsTaskbarViewMode to 2
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\HideSCAMeetNow to 1
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\Software\Microsoft\Windows\CurrentVersion\UserProfileEngagement\ScoobeSystemSettingEnabled to 0
+2025-12-23 23:26:23 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Running Script for WPFTweaksTele
+2025-12-23 23:26:24 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: WARNING: The specified command was not found.
+2025-12-23 23:26:24 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: WARNING: The term 'Set-MpPreference' is not recognized as the name of a cmdlet, function, script file, or operable
+2025-12-23 23:26:24 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2025-12-23 23:26:25 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\EnableActivityFeed to 0
+2025-12-23 23:26:25 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\PublishUserActivities to 0
+2025-12-23 23:26:25 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\UploadUserActivities to 0
+2025-12-23 23:26:26 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsCopilot\TurnOffWindowsCopilot to 1
+2025-12-23 23:26:26 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\Software\Policies\Microsoft\Windows\WindowsCopilot\TurnOffWindowsCopilot to 1
+2025-12-23 23:26:26 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\ShowCopilotButton to 0
+2025-12-23 23:26:26 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Microsoft\Windows\Shell\Copilot\IsCopilotAvailable to 0
+2025-12-23 23:26:26 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Microsoft\Windows\Shell\Copilot\CopilotDisabledReason to IsEnabledForGeographicRegionFailed
+2025-12-23 23:26:26 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsCopilot\AllowCopilotRuntime to 0
+2025-12-23 23:26:26 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked\{CB3B0003-8088-4EDE-8769-8B354AB2FF8C} to
+2025-12-23 23:26:26 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Microsoft\Windows\Shell\Copilot\BingChat\IsUserEligible to 0
+2025-12-23 23:26:26 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Running Script for WPFTweaksRemoveCopilot
+2025-12-23 23:26:26 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Remove Copilot
+2025-12-23 23:26:29 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\location\Value to Deny
+2025-12-23 23:26:29 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Sensor\Overrides\{BFA794E4-F964-4FDB-90F6-51056BFE4B44}\SensorPermissionState to 0
+2025-12-23 23:26:29 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SYSTEM\CurrentControlSet\Services\lfsvc\Service\Configuration\Status to 0
+2025-12-23 23:26:29 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SYSTEM\Maps\AutoUpdateEnabled to 0
+2025-12-23 23:26:30 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Running Script for WPFTweaksRemoveOnedrive
+2025-12-23 23:26:30 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Removing OneDrive
+2025-12-23 23:26:30 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: OneDrive doesn't seem to be installed
+2025-12-23 23:26:30 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Running cleanup if OneDrive path exists
+2025-12-23 23:26:30 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: WARNING: A runtime exception occurred.
+2025-12-23 23:26:30 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: WARNING: Cannot bind argument to parameter 'Path' because it is null.
+2025-12-23 23:26:31 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\Control Panel\Desktop\DragFullWindows to 0
+2025-12-23 23:26:31 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\Control Panel\Desktop\MenuShowDelay to 200
+2025-12-23 23:26:31 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\Control Panel\Desktop\WindowMetrics\MinAnimate to 0
+2025-12-23 23:26:31 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\Control Panel\Keyboard\KeyboardDelay to 0
+2025-12-23 23:26:31 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\ListviewAlphaSelect to 0
+2025-12-23 23:26:31 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\ListviewShadow to 0
+2025-12-23 23:26:31 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\TaskbarAnimations to 0
+2025-12-23 23:26:31 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\VisualFXSetting to 3
+2025-12-23 23:26:31 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\Software\Microsoft\Windows\DWM\EnableAeroPeek to 0
+2025-12-23 23:26:31 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\TaskbarMn to 0
+2025-12-23 23:26:31 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\TaskbarDa to 0
+2025-12-23 23:26:31 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\ShowTaskViewButton to 0
+2025-12-23 23:26:31 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\Software\Microsoft\Windows\CurrentVersion\Search\SearchboxTaskbarMode to 0
+2025-12-23 23:26:31 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Running Script for WPFTweaksDisplay
+2025-12-23 23:26:32 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsAI was not found, Creating...
+2025-12-23 23:26:32 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsAI\DisableAIDataAnalysis to 1
+2025-12-23 23:26:32 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsAI\AllowRecallEnablement to 0
+2025-12-23 23:26:32 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKLM:\SYSTEM\CurrentControlSet\Control\CI\Policy\VerifiedAndReputablePolicyState to 0
+2025-12-23 23:26:32 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Running Script for WPFTweaksRecallOff
+2025-12-23 23:26:32 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Disable Recall
+2025-12-23 23:26:32 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Please restart your computer in order for the changes to be fully applied.
+2025-12-23 23:26:33 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Set HKCU:\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications\GlobalUserDisabled to 1
+2025-12-23 23:26:34 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Running Script for WPFTweaksRemoveGallery
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service ALG to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service AppIDSvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service AppMgmt to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service AppReadiness to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service AppVClient to Disabled
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service AppXSvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service Appinfo to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service AudioEndpointBuilder to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service AudioSrv to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service Audiosrv to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service AxInstSV to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service BDESVC to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service BFE to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service BcastDVRUserService_* to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service BrokerInfrastructure to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service Browser to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service BthHFSrv to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service CDPUserSvc_* to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service COMSysApp to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service CaptureService_* to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service CertPropSvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service ClipSVC to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service ConsentUxUserSvc_* to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service CoreMessagingRegistrar to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service CredentialEnrollmentManagerUserSvc_* to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service CryptSvc to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service CscService to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service DPS to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service DcomLaunch to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service DcpSvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service DevQueryBroker to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service DeviceAssociationBrokerSvc_* to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service DeviceAssociationService to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service DeviceInstall to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service DevicePickerUserSvc_* to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service DevicesFlowUserSvc_* to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service Dhcp to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service DialogBlockingService to Disabled
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service DispBrokerDesktopSvc to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service DisplayEnhancementService to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service DmEnrollmentSvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service Dnscache to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service EFS to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service EapHost to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service EntAppSvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service EventLog to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service EventSystem to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service FDResPub to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service Fax to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service FrameServer to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service FrameServerMonitor to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service HomeGroupListener to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service HomeGroupProvider to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service HvHost to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service IEEtwCollectorService to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service IKEEXT to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service InstallService to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service InventorySvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service IpxlatCfgSvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service KtmRm to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service LSM to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service LanmanServer to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service LicenseManager to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service LxpSvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service MSDTC to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service MSiSCSI to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service MapsBroker to AutomaticDelayedStart
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service McpManagementService to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service MicrosoftEdgeElevationService to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service MixedRealityOpenXRSvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service MpsSvc to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service NPSMSvc_* to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service NaturalAuthentication to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service NcaSvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service NcbService to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service NcdAutoSetup to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service NetSetupSvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service NetTcpPortSharing to Disabled
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service Netman to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service NgcCtnrSvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service NgcSvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service NlaSvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service OneSyncSvc_* to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service P9RdrService_* to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service PNRPAutoReg to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service PNRPsvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service PeerDistSvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service PenService_* to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service PerfHost to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service PhoneSvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service PimIndexMaintenanceSvc_* to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service PlugPlay to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service PolicyAgent to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service Power to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service PrintWorkflowUserSvc_* to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service ProfSvc to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service PushToInstall to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service QWAVE to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service RasAuto to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service RasMan to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service RemoteAccess to Disabled
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service RemoteRegistry to Disabled
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service RetailDemo to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service RmSvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service RpcEptMapper to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service RpcLocator to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service RpcSs to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service SCPolicySvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service SCardSvr to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service SDRSVC to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service SEMgrSvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service SENS to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service SNMPTRAP to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service SNMPTrap to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service SSDPSRV to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service SamSs to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service ScDeviceEnum to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service Schedule to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service SecurityHealthService to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service Sense to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service SensorDataService to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service SensorService to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service SessionEnv to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service SharedAccess to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service SharedRealitySvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service SmsRouter to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service SstpSvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service SystemEventsBroker to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service TabletInputService to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service TapiSrv to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service Themes to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service TieringEngineService to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service TimeBroker to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service TimeBrokerSvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service TokenBroker to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service TrkWks to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service TroubleshootingSvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service TrustedInstaller to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service UI0Detect to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service UdkUserSvc_* to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service UevAgentService to Disabled
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service UmRdpService to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service UnistoreSvc_* to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service UserDataSvc_* to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service UserManager to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service UsoSvc to Manual
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service VGAuthService to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service VMTools to Automatic
+2025-12-23 23:26:35 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service VSS to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service VacSvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service W32Time to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service WEPHOSTSVC to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service WFDSConMgrSvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service WManSvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service WPDBusEnum to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service WSService to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service WaaSMedicSvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service WalletService to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service WarpJITSvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service WbioSrvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service Wcmsvc to Automatic
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service WcsPlugInService to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service WdNisSvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service WdiSystemHost to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service WebClient to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service Wecsvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service WiaRpc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service WinDefend to Automatic
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service WinHttpAutoProxySvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service WinRM to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service Winmgmt to Automatic
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service WpcMonSvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service WpnUserService_* to Automatic
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service autotimesvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service camsvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service cbdhsvc_* to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service cloudidsvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service dcsvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service defragsvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service diagsvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service dot3svc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service edgeupdate to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service edgeupdatem to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service embeddedmode to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service fdPHost to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service fhsvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service gpsvc to Automatic
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service hidserv to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service icssvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service iphlpsvc to Automatic
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service mpssvc to Automatic
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service msiserver to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service netprofm to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service nsi to Automatic
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service p2pimsvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service p2psvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service perceptionsimulation to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service pla to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service seclogon to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service shpamsvc to Disabled
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service smphost to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service spectrum to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service sppsvc to AutomaticDelayedStart
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service ssh-agent to Disabled
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service svsvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service swprv to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service tiledatamodelsvc to Automatic
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service tzautoupdate to Disabled
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service uhssvc to Disabled
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service upnphost to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service vds to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service vm3dservice to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service vmvss to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service wbengine to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service wcncsvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service webthreatdefsvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service wlidsvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service wlpasvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service wmiApSrv to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service workfolderssvc to Manual
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service wscsvc to AutomaticDelayedStart
+2025-12-23 23:26:36 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: Setting Service wudfsvc to Manual
+2025-12-23 23:26:37 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: =================================
+2025-12-23 23:26:37 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: PCOMMAND STDOUT: --     Tweaks are Finished    ---
+2025-12-23 23:26:37 [INFO] root util_powershell_handler._stream:172 [pid:5108 tid:11900 threadName:Thread-8 (_stream)]: Termination string 'Tweaks are Finished' detected.
+2025-12-23 23:26:37 [INFO] root util_powershell_handler.run_powershell_command:202 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: PowerShell terminated after detecting 'Tweaks are Finished'. Treating exit code 1 as success.
+2025-12-23 23:26:37 [DEBUG] root util_powershell_handler.run_powershell_command:215 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: PowerShell completed successfully (code 0)
+2025-12-23 23:26:37 [INFO] root debloat_execute_external_scripts.main:99 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Successfully executed ChrisTitusTech WinUtil
+2025-12-23 23:26:37 [INFO] root debloat_execute_external_scripts.main:148 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Executing Raphi Win11Debloat
+2025-12-23 23:26:37 [INFO] root util_powershell_handler.run_powershell_command:142 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Launching PowerShell command: & 'C:\Users\ADMINI~1\AppData\Local\RavenDevelopmentTeam\Talon\2.1.0.0-1.0.0.19\external_scripts\Raphire-Win11Debloat-c523386\Win11Debloat.ps1' -Silent -RemoveApps -RemoveGamingApps -DisableTelemetry -DisableBing -DisableSuggestions -DisableLockscreenTips -RevertContextMenu -TaskbarAlignLeft -HideSearchTb -DisableWidgets -DisableCopilot -ClearStartAllUsers -DisableDVR -DisableStartRecommended -ExplorerToThisPC -DisableMouseAcceleration -DisableDesktopSpotlight -DisableSettings365Ads -DisableSettingsHome -DisablePaintAI -DisableNotepadAI -DisableStickyKeys
+2025-12-23 23:26:40 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: -------------------------------------------------------------------------------------------
+2025-12-23 23:26:40 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT:  Win11Debloat Script - Custom Mode (User: Administrator)
+2025-12-23 23:26:40 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: -------------------------------------------------------------------------------------------
+2025-12-23 23:26:40 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Removing default selection of 87 apps...
+2025-12-23 23:26:40 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Clipchamp.Clipchamp...
+2025-12-23 23:26:40 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.3DBuilder...
+2025-12-23 23:26:40 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.549981C3F5F10...
+2025-12-23 23:26:40 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.BingFinance...
+2025-12-23 23:26:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.BingFoodAndDrink...
+2025-12-23 23:26:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.BingHealthAndFitness...
+2025-12-23 23:26:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.BingNews...
+2025-12-23 23:26:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.BingSports...
+2025-12-23 23:26:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.BingTranslator...
+2025-12-23 23:26:41 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.BingTravel...
+2025-12-23 23:26:42 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.BingWeather...
+2025-12-23 23:26:42 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.Copilot...
+2025-12-23 23:26:42 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.Getstarted...
+2025-12-23 23:26:42 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.Messaging...
+2025-12-23 23:26:42 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.Microsoft3DViewer...
+2025-12-23 23:26:42 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.MicrosoftJournal...
+2025-12-23 23:26:42 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.MicrosoftOfficeHub...
+2025-12-23 23:26:43 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.MicrosoftPowerBIForWindows...
+2025-12-23 23:26:43 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.MicrosoftSolitaireCollection...
+2025-12-23 23:26:43 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.MicrosoftStickyNotes...
+2025-12-23 23:26:43 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.MixedReality.Portal...
+2025-12-23 23:26:43 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.NetworkSpeedTest...
+2025-12-23 23:26:43 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.News...
+2025-12-23 23:26:43 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.Office.OneNote...
+2025-12-23 23:26:44 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.Office.Sway...
+2025-12-23 23:26:44 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.OneConnect...
+2025-12-23 23:26:44 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.Print3D...
+2025-12-23 23:26:44 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.SkypeApp...
+2025-12-23 23:26:44 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.Todos...
+2025-12-23 23:26:44 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.WindowsAlarms...
+2025-12-23 23:26:44 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.WindowsFeedbackHub...
+2025-12-23 23:26:44 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.WindowsMaps...
+2025-12-23 23:26:45 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.WindowsSoundRecorder...
+2025-12-23 23:26:45 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.XboxApp...
+2025-12-23 23:26:45 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.ZuneVideo...
+2025-12-23 23:26:45 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove MicrosoftCorporationII.MicrosoftFamily...
+2025-12-23 23:26:45 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove MicrosoftCorporationII.QuickAssist...
+2025-12-23 23:26:45 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove MicrosoftTeams...
+2025-12-23 23:26:45 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove MSTeams...
+2025-12-23 23:26:45 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove ACGMediaPlayer...
+2025-12-23 23:26:46 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove ActiproSoftwareLLC...
+2025-12-23 23:26:46 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove AdobeSystemsIncorporated.AdobePhotoshopExpress...
+2025-12-23 23:26:46 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Amazon.com.Amazon...
+2025-12-23 23:26:46 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove AmazonVideo.PrimeVideo...
+2025-12-23 23:26:46 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Asphalt8Airborne...
+2025-12-23 23:26:46 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove AutodeskSketchBook...
+2025-12-23 23:26:46 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove CaesarsSlotsFreeCasino...
+2025-12-23 23:26:46 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove COOKINGFEVER...
+2025-12-23 23:26:47 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove CyberLinkMediaSuiteEssentials...
+2025-12-23 23:26:47 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove DisneyMagicKingdoms...
+2025-12-23 23:26:47 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Disney...
+2025-12-23 23:26:47 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove DrawboardPDF...
+2025-12-23 23:26:47 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Duolingo-LearnLanguagesforFree...
+2025-12-23 23:26:47 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove EclipseManager...
+2025-12-23 23:26:47 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Facebook...
+2025-12-23 23:26:47 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove FarmVille2CountryEscape...
+2025-12-23 23:26:48 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove fitbit...
+2025-12-23 23:26:48 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Flipboard...
+2025-12-23 23:26:48 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove HiddenCity...
+2025-12-23 23:26:48 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove HULULLC.HULUPLUS...
+2025-12-23 23:26:48 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove iHeartRadio...
+2025-12-23 23:26:48 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Instagram...
+2025-12-23 23:26:48 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove king.com.BubbleWitch3Saga...
+2025-12-23 23:26:48 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove king.com.CandyCrushSaga...
+2025-12-23 23:26:49 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove king.com.CandyCrushSodaSaga...
+2025-12-23 23:26:49 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove LinkedInforWindows...
+2025-12-23 23:26:49 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove MarchofEmpires...
+2025-12-23 23:26:49 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Netflix...
+2025-12-23 23:26:49 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove NYTCrossword...
+2025-12-23 23:26:49 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove OneCalendar...
+2025-12-23 23:26:49 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove PandoraMediaInc...
+2025-12-23 23:26:49 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove PhototasticCollage...
+2025-12-23 23:26:50 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove PicsArt-PhotoStudio...
+2025-12-23 23:26:50 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Plex...
+2025-12-23 23:26:50 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove PolarrPhotoEditorAcademicEdition...
+2025-12-23 23:26:50 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Royal Revolt...
+2025-12-23 23:26:50 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Shazam...
+2025-12-23 23:26:50 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Sidia.LiveWallpaper...
+2025-12-23 23:26:50 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove SlingTV...
+2025-12-23 23:26:50 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Spotify...
+2025-12-23 23:26:51 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove TikTok...
+2025-12-23 23:26:51 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove TuneInRadio...
+2025-12-23 23:26:51 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Twitter...
+2025-12-23 23:26:51 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Viber...
+2025-12-23 23:26:51 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove WinZipUniversal...
+2025-12-23 23:26:51 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Wunderlist...
+2025-12-23 23:26:51 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove XING...
+2025-12-23 23:26:52 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:52 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Removing gaming related apps...
+2025-12-23 23:26:52 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.GamingApp...
+2025-12-23 23:26:52 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.XboxGameOverlay...
+2025-12-23 23:26:53 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.XboxGamingOverlay...
+2025-12-23 23:26:53 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:53 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Disabling telemetry, diagnostic data, activity history, app-launch tracking and targeted ads...
+2025-12-23 23:26:53 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: The operation completed successfully.
+2025-12-23 23:26:53 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: 
+2025-12-23 23:26:53 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:53 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Disabling Bing web search, Bing AI and Cortana from Windows search...
+2025-12-23 23:26:53 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: The operation completed successfully.
+2025-12-23 23:26:53 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: 
+2025-12-23 23:26:53 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:53 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.BingSearch...
+2025-12-23 23:26:53 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:53 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Disabling tips, tricks, suggestions and ads across Windows...
+2025-12-23 23:26:53 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: The operation completed successfully.
+2025-12-23 23:26:53 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: 
+2025-12-23 23:26:53 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:53 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Disabling tips & tricks on the lockscreen...
+2025-12-23 23:26:53 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: The operation completed successfully.
+2025-12-23 23:26:53 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: 
+2025-12-23 23:26:53 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:53 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Restoring the old Windows 10 style context menu...
+2025-12-23 23:26:53 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: The operation completed successfully.
+2025-12-23 23:26:53 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: 
+2025-12-23 23:26:53 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:53 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Aligning taskbar buttons to the left...
+2025-12-23 23:26:53 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: The operation completed successfully.
+2025-12-23 23:26:53 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: 
+2025-12-23 23:26:53 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:53 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Hiding the search icon from the taskbar...
+2025-12-23 23:26:53 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: The operation completed successfully.
+2025-12-23 23:26:53 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: 
+2025-12-23 23:26:53 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:53 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Disabling widgets on the taskbar & lockscreen...
+2025-12-23 23:26:53 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: The operation completed successfully.
+2025-12-23 23:26:53 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: 
+2025-12-23 23:26:53 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:53 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.StartExperiencesApp...
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Disabling Microsoft Copilot...
+2025-12-23 23:26:54 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: The operation completed successfully.
+2025-12-23 23:26:54 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Attempting to remove Microsoft.Copilot...
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Removing all pinned apps from the start menu for all users...
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Error: Unable to clear start menu, start2.bin file missing from script folder
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Disabling Xbox game/screen recording...
+2025-12-23 23:26:54 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: The operation completed successfully.
+2025-12-23 23:26:54 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Disabling the start menu recommended section...
+2025-12-23 23:26:54 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: The operation completed successfully.
+2025-12-23 23:26:54 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Changing the default location that File Explorer opens to This PC...
+2025-12-23 23:26:54 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: The operation completed successfully.
+2025-12-23 23:26:54 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Turning off Enhanced Pointer Precision...
+2025-12-23 23:26:54 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: The operation completed successfully.
+2025-12-23 23:26:54 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Disabling the 'Windows Spotlight' desktop background option...
+2025-12-23 23:26:54 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: The operation completed successfully.
+2025-12-23 23:26:54 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Disabling Microsoft 365 ads in Settings Home...
+2025-12-23 23:26:54 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: The operation completed successfully.
+2025-12-23 23:26:54 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Disabling the Settings Home page...
+2025-12-23 23:26:54 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: The operation completed successfully.
+2025-12-23 23:26:54 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Disabling AI features in Paint...
+2025-12-23 23:26:54 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: The operation completed successfully.
+2025-12-23 23:26:54 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Disabling AI features in Notepad...
+2025-12-23 23:26:54 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: The operation completed successfully.
+2025-12-23 23:26:54 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Disabling the Sticky Keys keyboard shortcut...
+2025-12-23 23:26:54 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: The operation completed successfully.
+2025-12-23 23:26:54 [ERROR] root util_powershell_handler._stream:170 [pid:5108 tid:2888 threadName:Thread-11 (_stream)]: PCOMMAND STDERR: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: > Restarting Windows Explorer process to apply all changes... (This may cause some flickering)
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Warning: The Enhance Pointer Precision setting changes will only take effect after a reboot
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Warning: The Sticky Keys setting changes will only take effect after a reboot
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: 
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Script completed! Please check above for any errors.
+2025-12-23 23:26:54 [INFO] root util_powershell_handler._stream:170 [pid:5108 tid:6420 threadName:Thread-10 (_stream)]: PCOMMAND STDOUT: Transcript stopped, output file is C:\Users\Administrator\AppData\Local\RavenDevelopmentTeam\Talon\2.1.0.0-1.0.0.19\external_scripts\Raphire-Win11Debloat-c523386\Win11Debloat.log
+2025-12-23 23:26:54 [DEBUG] root util_powershell_handler.run_powershell_command:215 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: PowerShell completed successfully (code 0)
+2025-12-23 23:26:54 [INFO] root debloat_execute_external_scripts.main:151 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Successfully executed Raphi Win11Debloat
+2025-12-23 23:26:54 [INFO] root debloat_execute_external_scripts.main:163 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: All external debloat scripts executed successfully.
+2025-12-23 23:26:54 [INFO] root debloat_registry_tweaks.main:44 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Applying registry tweak: Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\TaskbarAl = 0 (type=4)
+2025-12-23 23:26:54 [INFO] root util_modify_registry.set_value:55 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Set registry value: 18446744071562067969\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\TaskbarAl = 0 (type=4)
+2025-12-23 23:26:54 [INFO] root debloat_registry_tweaks.main:46 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Successfully set TaskbarAl
+2025-12-23 23:26:54 [INFO] root debloat_registry_tweaks.main:44 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Applying registry tweak: Software\Microsoft\Windows\CurrentVersion\Themes\Personalize\AppsUseLightTheme = 0 (type=4)
+2025-12-23 23:26:54 [INFO] root util_modify_registry.set_value:55 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Set registry value: 18446744071562067969\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize\AppsUseLightTheme = 0 (type=4)
+2025-12-23 23:26:54 [INFO] root debloat_registry_tweaks.main:46 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Successfully set AppsUseLightTheme
+2025-12-23 23:26:54 [INFO] root debloat_registry_tweaks.main:44 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Applying registry tweak: Software\Microsoft\Windows\CurrentVersion\Themes\Personalize\SystemUsesLightTheme = 0 (type=4)
+2025-12-23 23:26:54 [INFO] root util_modify_registry.set_value:55 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Set registry value: 18446744071562067969\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize\SystemUsesLightTheme = 0 (type=4)
+2025-12-23 23:26:54 [INFO] root debloat_registry_tweaks.main:46 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Successfully set SystemUsesLightTheme
+2025-12-23 23:26:54 [INFO] root debloat_registry_tweaks.main:44 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Applying registry tweak: Software\Microsoft\Windows\CurrentVersion\GameDVR\AppCaptureEnabled = 0 (type=4)
+2025-12-23 23:26:54 [INFO] root util_modify_registry.set_value:55 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Set registry value: 18446744071562067969\Software\Microsoft\Windows\CurrentVersion\GameDVR\AppCaptureEnabled = 0 (type=4)
+2025-12-23 23:26:54 [INFO] root debloat_registry_tweaks.main:46 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Successfully set AppCaptureEnabled
+2025-12-23 23:26:54 [INFO] root debloat_registry_tweaks.main:44 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Applying registry tweak: SOFTWARE\Microsoft\PolicyManager\default\ApplicationManagement\AllowGameDVR\Value = 0 (type=4)
+2025-12-23 23:26:54 [INFO] root util_modify_registry.set_value:55 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Set registry value: 18446744071562067970\SOFTWARE\Microsoft\PolicyManager\default\ApplicationManagement\AllowGameDVR\Value = 0 (type=4)
+2025-12-23 23:26:54 [INFO] root debloat_registry_tweaks.main:46 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Successfully set Value
+2025-12-23 23:26:54 [INFO] root debloat_registry_tweaks.main:44 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Applying registry tweak: Control Panel\Desktop\MenuShowDelay = '0' (type=1)
+2025-12-23 23:26:54 [INFO] root util_modify_registry.set_value:55 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Set registry value: 18446744071562067969\Control Panel\Desktop\MenuShowDelay = '0' (type=1)
+2025-12-23 23:26:54 [INFO] root debloat_registry_tweaks.main:46 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Successfully set MenuShowDelay
+2025-12-23 23:26:54 [INFO] root debloat_registry_tweaks.main:44 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Applying registry tweak: Control Panel\Desktop\WindowMetrics\MinAnimate = 0 (type=4)
+2025-12-23 23:26:54 [INFO] root util_modify_registry.set_value:55 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Set registry value: 18446744071562067969\Control Panel\Desktop\WindowMetrics\MinAnimate = 0 (type=4)
+2025-12-23 23:26:54 [INFO] root debloat_registry_tweaks.main:46 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Successfully set MinAnimate
+2025-12-23 23:26:54 [INFO] root debloat_registry_tweaks.main:44 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Applying registry tweak: Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\ExtendedUIHoverTime = 1 (type=4)
+2025-12-23 23:26:54 [INFO] root util_modify_registry.set_value:55 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Set registry value: 18446744071562067969\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\ExtendedUIHoverTime = 1 (type=4)
+2025-12-23 23:26:54 [INFO] root debloat_registry_tweaks.main:46 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Successfully set ExtendedUIHoverTime
+2025-12-23 23:26:54 [INFO] root debloat_registry_tweaks.main:44 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Applying registry tweak: Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\HideFileExt = 0 (type=4)
+2025-12-23 23:26:54 [INFO] root util_modify_registry.set_value:55 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Set registry value: 18446744071562067969\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\HideFileExt = 0 (type=4)
+2025-12-23 23:26:54 [INFO] root debloat_registry_tweaks.main:46 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Successfully set HideFileExt
+2025-12-23 23:26:54 [INFO] root debloat_registry_tweaks.main:44 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Applying registry tweak: Control Panel\Desktop\DragFullWindows = '1' (type=1)
+2025-12-23 23:26:54 [INFO] root util_modify_registry.set_value:55 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Set registry value: 18446744071562067969\Control Panel\Desktop\DragFullWindows = '1' (type=1)
+2025-12-23 23:26:54 [INFO] root debloat_registry_tweaks.main:46 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Successfully set DragFullWindows
+2025-12-23 23:26:54 [INFO] root debloat_registry_tweaks.main:58 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: All registry tweaks applied successfully.
+2025-12-23 23:26:54 [INFO] root debloat_configure_updates.main:23 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Detected product name: Windows 10 Pro
+2025-12-23 23:26:54 [INFO] root debloat_configure_updates.main:36 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Executing PowerShell script: update_policy_changer_pro.ps1
+2025-12-23 23:26:54 [INFO] root util_powershell_handler.run_powershell_script:47 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Launching PowerShell: powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\ADMINI~1\AppData\Local\RavenDevelopmentTeam\Talon\2.1.0.0-1.0.0.19\debloat_raven_scripts\update_policy_changer_pro.ps1
+2025-12-23 23:26:57 [INFO] root util_powershell_handler._stream:73 [pid:5108 tid:3728 threadName:Thread-12 (_stream)]: PSCRIPT [update_policy_changer_pro.ps1] STDOUT: Security updates only. Drivers are blocked, including Optional Updates.
+2025-12-23 23:26:58 [DEBUG] root util_powershell_handler.run_powershell_script:119 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: PowerShell completed successfully (code 0)
+2025-12-23 23:26:58 [INFO] root debloat_configure_updates.main:39 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Successfully executed update_policy_changer_pro.ps1
+2025-12-23 23:26:58 [INFO] root debloat_configure_updates.main:50 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Windows update policy configured successfully.
+2025-12-23 23:26:58 [INFO] root debloat_apply_background.main:15 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Setting desktop background: C:\Users\ADMINI~1\AppData\Local\RavenDevelopmentTeam\Talon\2.1.0.0-1.0.0.19\media\desktop_background.png
+2025-12-23 23:26:58 [INFO] root debloat_apply_background.main:33 [pid:5108 tid:5276 threadName:Thread-1 (debloat_sequence)]: Desktop background set successfully.
